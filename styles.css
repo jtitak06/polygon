@@ -1,0 +1,344 @@
+@font-face {
+    font-family: 'manrope';
+    src: url('./manrope/Manrope-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'manrope';
+    src: url('./manrope/Manrope-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1140px) {
+    .header {
+        width: auto;
+    }
+}
+
+.logo {
+    max-width: 155px;
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.header__list-item {
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header__list-item:last-of-type {
+    margin-right: 0;
+}
+
+.header__link {
+    color: #061024;
+    text-decoration: none;
+    font-family: 'manrope';
+    font-weight: 400;
+}
+
+.get-started__button {
+    background-color: #8247e5;
+    padding: 12px 22px;
+    border: 1px solid #8247e5;
+}
+
+.get-started__text {
+    color: #fff;
+    line-height: 20px;
+    text-decoration: none;
+    font-family: 'manrope';
+
+}
+
+.info__inner-wrap {
+    padding-top: 80px;
+    padding-right: 150px;
+    padding-bottom: 120px;
+    padding-left: 150px;
+    align-items: center;
+}
+
+.info__wrapper {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #eee7fa;
+    border-radius: 22px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 85%;
+    margin: auto;
+    text-decoration: none;
+}
+
+.info__title {
+    color: #8248e5;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.86px;
+    margin-right: 10px;
+    font-family: 'manrope';
+    margin: 0;
+    margin-right: 10px;
+}
+
+.info__post-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    font-family: 'manrope';
+    color: #000;
+    margin-right: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.info__block {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+h1 {
+    color: #000;
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 54px;
+    font-family: 'manrope';
+    margin-bottom: 20px;
+}
+
+.info__text-block {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 32px;
+    font-family: 'manrope';
+}
+
+.scale-banner {
+    width: 1140px;
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #061024;
+    height: 144px;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-bottom-width: 8px;
+    border-bottom-color: #8248e5;
+    z-index: 1;
+    margin: auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .scale-banner {
+        width: auto;
+    }
+}
+
+.scale-banner__column1 {
+    display: flex;
+    flex-direction: row;;
+}
+
+.scale-banner__column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.scale-banner__column3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.scale-banner__arrows {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 64px;
+    margin-right: 26px;
+}
+
+.scale-banner__headline {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.78px;
+    text-align: left;
+    font-family: 'manrope';
+    margin: 0;
+}
+
+.scale-banner__text {
+    color: #fff;
+    margin-top: 0;
+    line-height: 21px;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'manrope';
+    margin-bottom: 0;
+}
+
+.scale-banner__get-started {
+    flex-direction: unset;
+    display: inline-block;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-right: 12px;
+    min-width: 132px;
+    background-color: #8248e5;
+    border: 1px solid #8248e5;
+}
+
+.scale-banner__link-text {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'manrope';
+    text-decoration: none;
+}
+
+.scale-banner__contact {
+    flex-direction: unset;
+    display: inline-block;
+    padding-left: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-color: #929292;
+    border-right-color: #929292;
+    border-bottom-color: #929292;
+    border-left-color: #929292;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    padding-right: 23px;
+    margin-left: 12px;
+    min-width: 132px;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+
+.scale-banner__contact-text {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'manrope';
+    color: #061024;
+    text-decoration: none;
+}
+
+.developers {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+    .developers {
+        flex-direction: column-reverse;
+    }
+}
+
+.developers__wrapper {
+    width: 570px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.developers__title {
+    font-family: 'manrope';
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.developers__text {
+    text-align: left;
+    font-size: 16px;
+    line-height: 21px;
+    margin-top: 0;
+    font-family: 'manrope';
+    font-weight: 400;
+}
+
+.developers__group {
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+    flex-wrap: nowrap;
+}
+
+.developers__check {
+    height: 20px;
+    width: 20px;
+    margin-right: 12px;
+}
+
+.developers__list-item {
+    font-family: 'manrope';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #061024;
+}
+
+.developers__wrapper-2 {
+    width: 510px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.developers__multichain {
+    width: 338px;
+}
